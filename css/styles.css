@@ -25,6 +25,24 @@ body{
     background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 /* ------header------ */
 
 .visually-hidden {
@@ -53,12 +71,21 @@ body{
     color: var(--brand-color);
 }
 
+.container{
+    outline:  1px solid red;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
-/* .header {
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
-.header-nav {
+/*.header-nav {
 } */
 
 .logo{
@@ -111,6 +138,8 @@ body{
 
 .hero {
     background-color: var(--dark-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
     }
 .hero-title {
     font-size: 56px;
@@ -118,6 +147,8 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 48px;
+
 }
 .hero-btn {
     font-family: 'Roboto', sans-serif;
@@ -130,13 +161,16 @@ body{
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+
  }
 
 /* -----about----- */
 
-/* .about {
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.about-list {
+/*.about-list {
 }
 .about-list-item {
 } */
@@ -146,6 +180,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin-bottom: 8px;
 }
 .about-list-text {
     font-size: 16px;
@@ -155,8 +190,11 @@ body{
 
 /* -----services----- */
 
-/* .services {
-} */
+.section.services {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
 .services-title,
 .team-title {
     font-size: 36px;
@@ -164,6 +202,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 /* .services-list {
 }
@@ -185,8 +224,9 @@ body{
     background-color: #ffffff;
 }
 
-/* .team-list-img {
-} */
+.team-list-img {
+    margin-bottom: 32px;
+}
 .team-member-name {
     font-weight: 500;
     font-size: 20px;
@@ -194,6 +234,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin-bottom: 8px;
 }
 
 .team-member-poisition {
@@ -207,6 +248,8 @@ body{
 
 .footer {
     background-color: var(--dark-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logo-footer{
     color: var(--light-color);
@@ -220,10 +263,12 @@ body{
 
 /* ---------PORTFOLIO-------- */
 
-/* .portfolio {
-}
+.portfolio.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+    }
 
-.portfolio-btn-list {
+/* .portfolio-btn-list {
 } */
 
 .portfolio-btn {
@@ -254,10 +299,11 @@ body{
 }
 
 /* .portfolio-list {
-}
+} */
 
 .portfolio-img {
-} */
+    margin-bottom: 32px;
+}
 
 .portfolio-activity-name {
     font-weight: 500;
@@ -265,6 +311,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin-bottom: 8px;
 }
 
 .portfolio-activity-type {
