@@ -111,6 +111,7 @@ img {
 
 .logo-footer {
     color: var(--light-color);
+    margin-right: 0;
 }
 
 .logo-footer:hover,
